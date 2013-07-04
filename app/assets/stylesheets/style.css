@@ -1,0 +1,18 @@
+#conatiner  {
+  width: 960px;
+  margin: auto;
+
+}
+
+img {
+  max-width: 200px;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+
+nav us li a {
+  color: white;
+}

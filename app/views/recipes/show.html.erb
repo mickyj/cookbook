@@ -1,0 +1,5 @@
+<h3><%= @recipe.name %> </h3>
+<%= image_tag(@recipe.image) %>
+
+<%=link_to_edit_recipe_path (@recipe) %>
+<%=link_to 'delete', @recipe, :method => :delete %>
